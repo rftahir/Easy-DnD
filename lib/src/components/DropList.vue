@@ -436,11 +436,11 @@ export default class DropList extends DropMixin {
   will-change: left, top;
 }
 
-.drop-list:not(.drop-in) {
-  &::v-deep .drag-source {
-    // transition: none !important;
-  }
-}
+// .drop-list:not(.drop-in) {
+//   &::v-deep .drag-source {
+//     // transition: none !important;
+//   }
+// }
 </style>
 
 <style lang="scss">
